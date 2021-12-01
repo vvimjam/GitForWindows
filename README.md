@@ -36,7 +36,7 @@ Settng up a global gitignore file is a good practice, each repo can have its own
 * Go to [launcng ssh agent on git for windows](https://help.github.com/en/github/authenticating-to-github/working-with-ssh-key-passphrases#auto-launching-ssh-agent-on-git-for-windows) and copy paste the startup script into the .bashrc file and save. 
 * Ensure the env path within the script in .bashrc matches the local ssh key path.
 * Restart git bash
-* A waring will be shown about incorrect setup & .bash_profile file will be created.
+* A waring will be shown about incorrect setup & .bash_profile file will be created. If you see an error about path not found then ensure the path shown in cmd & the first line in .bashrc is valid (env=/c/Users/PC/.ssh/agent.env).
 * Enter passphrase if required
 * Identity will be added to ssh-agent [key added]
 * ssh-agent will start running automatically now
